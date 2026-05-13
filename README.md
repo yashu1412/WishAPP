@@ -10,12 +10,18 @@ Create personalized wishes in seconds! Beautiful templates, easy customization, 
 
 ### 2.2 Home Page
 - **Categorized templates**: Birthday, Anniversary, Festivals, etc.
+- **Search Functionality**: Search templates by name
+- **Quick Stats**: Display Popular, Loved, and New template counts
 - **Image Listing**: Grid view showing background images
 - **Live Preview**: Templates display user's name and photo as overlay
+- **Beautiful UI**: Gradient backgrounds, smooth animations, glassmorphism effects
 
 ### 2.3 Personalization & Sharing
 - **Download Button**: Merges layers into a single image
 - **Share Button**: Social integration (WhatsApp, Instagram, Email, etc.) via native share sheet
+- **10 Color Options**: Customize text color (White, Gold, Pink, Purple, Blue, Cyan, Green, Orange, Red, Black)
+- **3 Font Options**: Choose from Elegant, Modern, or Playful fonts
+- **Live Preview**: Real-time updates as you customize
 
 ### 2.4 Monetization (Premium Features)
 - **Content Status**: Clearly distinguish between 'Free' and 'Premium' images
@@ -147,9 +153,16 @@ Wishes App/
 Templates are rendered as HTML with absolute-positioned layers:
 - Background image
 - User photo overlay at configured position/size
-- User name overlay with custom font and color
+- User name overlay with custom font and color (10 color options + 3 font options)
 
 When downloading/sharing, `html2canvas` captures the entire DOM element as a single image.
+
+### UI Enhancements
+- **Gradient Backgrounds**: Beautiful light-to-dark gradient patterns
+- **Glassmorphism**: Frosted glass effects for cards and modals
+- **Smooth Animations**: Framer Motion for staggered entrances, hover effects, and transitions
+- **Glow Effects**: Purple/pink glow shadows for buttons and premium badges
+- **Responsive Design**: Perfect mobile, tablet, and desktop layouts
 
 ### Authentication
 Clerk handles:

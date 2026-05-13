@@ -69,10 +69,27 @@ To export the composite image:
 - Create a temporary `<a>` element to trigger download
 - For sharing, use the Web Share API or fall back to clipboard
 
+#### 4. Customization Options
+- **10 Color Options**: White, Gold, Pink, Purple, Blue, Cyan, Green, Orange, Red, Black
+- **3 Font Options**: Elegant (Georgia serif), Modern (Inter sans-serif), Playful (Comic Sans MS cursive)
+- All options update the live preview in real-time
+
 ### Cross-Origin Resource Sharing (CORS)
 - Images from Unsplash needed proper CORS handling
 - Used `fetch` to retrieve images and convert to data URLs before rendering
 - Added `crossOrigin="anonymous"` to img tags
+
+### UI & User Experience Enhancements
+- **Gradient Backgrounds**: Implemented beautiful light-to-dark gradient patterns with radial overlays for depth
+- **Glassmorphism**: Frosted glass effects with strong blur, subtle borders, and deep shadows
+- **Advanced Animations**: 
+  - Staggered entrance animations for all page elements
+  - Hover lift effects for buttons and cards
+  - Scale animations for interactive elements
+  - Floating effects for decorative elements
+- **Glow Effects**: Purple and pink glow shadows for buttons, premium badges, and key UI elements
+- **Responsive Grid**: Adaptive layout from 1 column (mobile) to 4 columns (XL desktop)
+- **Search & Stats**: Added template search bar and quick stats (Popular, Loved, New)
 
 ---
 
