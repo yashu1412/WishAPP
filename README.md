@@ -103,8 +103,8 @@ Create personalized wishes in seconds! Beautiful templates, easy customization, 
    Create a `.env.local` file in `frontend/` directory:
    ```env
    NEXT_PUBLIC_API_URL=http://localhost:5000/api
-   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_Y2hhbXBpb24tbW9yYXktMTQuY2xlcmsuYWNjb3VudHMuZGV2JA
-   CLERK_SECRET_KEY=sk_test_YGdvo2l8eVXELgrof1IQQmG2AhKhkDqlt91VPDuYCl
+   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+   CLERK_SECRET_KEY=
    ```
 
 4. **Start the frontend dev server**:
